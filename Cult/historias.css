@@ -1,0 +1,78 @@
+
+Body {
+	background: #000000;
+	padding: 100px;
+}
+
+
+	/* tags */ 
+	header {
+
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-bottom: 40px;
+	}
+		h1 {
+			text-align: right;
+			color: #FFFFFF;
+			padding-right: 70px;
+		}
+
+
+
+	/* classes */ 	
+	.introducao {
+			color: #FFFFFF;
+	}	
+
+	.miolo {
+			color: #FFFFFF;
+			text-align: center;
+
+	}
+
+	/* IDS */ 
+	#F1{
+		padding-left: 0px;
+		height: 20%;
+		width: 20%;
+	}
+	
+	#F2{
+		padding-left: 200px;
+		height: 20%;
+		width: 20%;
+	}
+	
+	#F3{
+		padding-left: 200px;
+		height: 20%;
+		width: 20%;
+	}	
+
+
+main {
+	position: center;
+	width: 0, auto;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 5px 5px;
+	width: 50%;
+}
+.checkbox {
+	margin: 20px 0;
+}

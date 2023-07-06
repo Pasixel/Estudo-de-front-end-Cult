@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Compartilhe bizarrices </title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="cult.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixaNave">
+				<h1><img src="RunaAnjo.jpg" alt="runa angelical"></h1>
+				<nav>
+					<ul>
+						<li><a href="cult.html">Artistas</a></li>
+						<li><a href="historias.html">Histórias</a></li>
+						<li><a href="index.html">Galeria</a></li>	
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<form>
+				<label for="nome">Nome e sobrenome</label>
+				<input type="text" id="nome" class="input-padrao" placeholder="Seu nome aqui">
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" placeholder="nome@dominio.com">
+				
+				<label for="historia">Conte sua historia</label>
+				<textarea id="historia" cols="30" rows="10" class="input-padrao" required placeholder="Conte sua história"></textarea>
+
+
+			<fieldset>	
+				<legend>Quer se manter anônimo?</legend>
+				<label for="radio-sim" class="teste">	<input type="radio" name="anonimo" value="sim" id="radio-sim" required>Sim</label>
+			
+
+				<label for="radio-nao" class="teste"><input type="radio" name="anonimo" valeu="nao" id="radio-nao" required>Não</label>				
+				
+			</fieldset>	
+
+			<fieldset>
+					<legend>Qual o gênero dos seus pronomes?</legend>
+					<select>
+						<option>Feminino</option>
+						<option>Masculino</option>
+						<option>Neutro</option>
+					</select>
+			</fieldset>		
+
+				<label class="checkbox">Podemos postar sua historia?<input type="checkbox" required> </label>
+
+				<input type="submit" value="Enviar historia de terror" class="enviar">
+				
+			</form>
+
+			<table>
+				<thead>
+					<tr>	
+						<td>Dia</td>
+						<td>Horario</td>
+					</tr>
+				</thead>
+				<tbody>	
+					<tr>	
+						<td>Sexta</td>
+						<td>03hr00</td>
+					</tr>
+					<tr>	
+						<td>Sabado</td>
+						<td>03hr00</td>
+					</tr>
+					<tr>	
+						<td>Domingo</td>
+						<td>03hr00</td>
+					</tr>
+				</tbody>	
+			</table>
+		</main>
+
+		<footer>
+			<img src="copy.jpg" alt="gargula">
+			<p id="copy">&copy; Copyright Patinha's world 2022</p>
+		</footer>
+	</body>
+</html>
