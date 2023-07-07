@@ -1,13 +1,18 @@
 
 body{
 	background: linear-gradient(#000000,#570a00);
-	font-family: 'Cinzel', serif;
+	/*font-family: "Tangerine";*/
+	/*font-family: "Eagle Lake";*/
+	font-family: "Grenze Gotisch";
+	font-weight: bold;
 }
 
 
 header {
-	background: #8a1000;
+	background: #570a00;
 	padding: 20px 0;
+	font-family: "Grenze Gotisch";
+	font-weight: bold;
 }
 
 nav {
@@ -17,14 +22,13 @@ nav {
 }
 nav li {
 	display: inline;
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 30px;
+	color: #000;
+	font-size: 45px;
 	text-decoration: none;
 }
 
@@ -38,6 +42,8 @@ nav a:hover {
 	margin: 0 auto;
 
 }
+
+
 
 .pintores{
 	padding: 50px 0;
@@ -71,13 +77,14 @@ nav a:hover {
 } 
 
 .pintores li:hover h2 {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .pintores h2 {
 	margin-bottom: 10px;
 
 }
+
 .pais{
 	margin-top: 15px;
 }
@@ -86,13 +93,15 @@ nav a:hover {
 main li {
 		margin: 25px;
 		vertical-align: center;
-		font-size: 15px;
+		font-size: 14px;
+		text-align: justify;
 		font-weight: bold;
 		padding-left: 30px;	
 }
 
 main li p {
-	font-weight: lighter;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 #FG {
@@ -101,23 +110,23 @@ main li p {
 }
 
 #GD {
-	width: 80%;
-	height: 80%;
+	width: 80.5%;
+	height: 80.5%;
 }
 
 #HM {
-	width: 85%;
-	height: 85%;
+	width: 84.3%;
+	height: 84.3%;
 }
 
 #MC {
-	width: 70%;
-	height: 70%;
+	width: 68.3%;
+	height: 68.3%;
 }
 
 #TG {
-	width: 80%;
-	height: 80%;
+	width: 76.5%;
+	height: 76.5%;
 }
 
 footer {
@@ -203,7 +212,7 @@ table {
 	padding-left: 32.8%;
 	width: auto;
 }
-}
+
 
 thead {
 	background: #000000;
